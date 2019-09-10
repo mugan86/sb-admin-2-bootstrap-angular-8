@@ -56,4 +56,12 @@ export class DatepickerService {
     data[2] = dataV.getDate();
     return data;
   }
+
+  minusYears(year: number = 18) {
+    const expireDate = new Date();
+    expireDate.setFullYear(expireDate.getFullYear() - year);
+    expireDate.setDate(expireDate.getDate() - 1);
+    console.log(expireDate.toString());
+    return expireDate;
+  }
 }

@@ -8,15 +8,6 @@ declare var $: any;
 export class SidebarComponent implements OnChanges {
   findClassToggled = 'sidenav-toggled';
   toggledSideNav: boolean;
-  constructor() {
-    if (localStorage.getItem('toggleSideNav') === '0') {
-      const takePageTopId = document.getElementById('page-top');
-      // add
-      // document.getElementById('accordionSidebar').classList.remove('toggled');
-    } else {
-
-    }
-  }
   toggled() {
     const find = document.getElementsByClassName(this.findClassToggled)[0];
     if (find !== undefined) {

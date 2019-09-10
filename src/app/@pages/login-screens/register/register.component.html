@@ -36,7 +36,7 @@
                         <div class="col-sm-4">
                           <input #data1 readonly placeholder="Date:" class="form-control form-control-user" [(ngModel)]="fecha"
                             [owlDateTimeTrigger]="dt1" [owlDateTime]="dt1" (ngModelChange)="onChange(1, dt1)"
-                            [ngModelOptions]="{standalone: true}" [min]="min" [max]="max">
+                            [ngModelOptions]="{standalone: true}" [max]="max">
                           <owl-date-time [pickerType]="'calendar'" [firstDayOfWeek]="1" #dt1></owl-date-time>
                         </div>
                       </div>

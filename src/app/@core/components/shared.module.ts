@@ -7,7 +7,6 @@ import { BreadcrumbComponent } from './shared/breadcrumb/breadcrumb.component';
 import { ScrollTopComponent } from './shared/scroll-top/scroll-top.component';
 import { RouterModule } from '@angular/router';
 import { SearchNavbarComponent } from './shared/search-navbar/search-navbar.component';
-
 @NgModule({
   declarations: [SidebarComponent, HeaderComponent,
     FooterComponent,
