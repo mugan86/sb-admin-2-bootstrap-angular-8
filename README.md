@@ -1,4 +1,5 @@
 # StartBootstrapAdminTwoAngular
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ceebe25b-5a20-4d6c-9be8-3bf977131107/deploy-status)](https://app.netlify.com/sites/angular-sb-admin-app/deploys)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.2.
 
