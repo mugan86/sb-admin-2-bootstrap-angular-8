@@ -22,7 +22,7 @@
     "@angular/platform-browser-dynamic": "~8.2.4",
     "@angular/router": "~8.2.4",
     "chart.js": "^2.8.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "ng-pick-datetime": "^7.0.0",
     "ng-pick-datetime-moment": "^1.0.8",
     "ng2-charts": "^2.3.0",
